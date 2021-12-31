@@ -1,19 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ASPWebPagesApp.Pages
 {
-    public class IndexModel : PageModel
+    public class AboutModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public AboutModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
         }
-
         public void OnGet()
         {
-
         }
     }
 }
